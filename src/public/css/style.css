@@ -1,0 +1,156 @@
+@import url(https://fonts.google.com/specimen/Kanit?preview.text=StarElectric&preview.text_type=custom&query=kanit);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit-Italic", sans-serif;
+}
+
+:root {
+    --first: #EABE3F;
+    --second: #272727;
+    --Third: #A3A3A3;
+    --fourth: #2E58FF;
+    --fifth: #BD00FF;
+}
+
+body {
+    background-color: var(--Third);
+}
+
+header {
+    background-color: var(--second);
+}
+
+footer {
+    background-color: var(--second);
+}
+
+.ArticulosEnTendencia{
+    color:var(--fifth);
+}
+
+.DetallesDelEnvio{
+    color:var(--fourth);
+}
+
+button {
+    background-color:var(--fourth);
+}
+
+li {
+    list-style-type: none;
+}
+
+.BarradeNavegacion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BNLogo {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.BNLogo h1 {
+    color: #EABE3F;
+    font-size: 20px;
+}
+
+.BNBusqueda ul {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.BNBusqueda ul {
+    align-items: center;
+}
+
+.BNOpciones ul{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.ProductoElegido {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.ProductoInformacionImportante {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    /*align-items: center;ConfundeElCodigo */
+}
+.ProductoAComprar {
+    background-color: #BD00FF;
+}
+
+.ProductoInfo ul{
+    background-color: green;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%;
+    gap: 20px;
+}
+
+/*.ProductoInfo ul li{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}*/
+
+.ProductoExtras {
+    background-color: #2E58FF;
+    display: flex;
+    flex-direction: row;
+}
+.ProductoDetalles {
+    color: #BD00FF;
+   
+}
+
+.Footer {
+    background-color: #272727;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Informacion li{
+    list-style-type: none;
+    margin: 40px;
+}
+
+.Datos li {
+    list-style-type: none;
+    margin: 40px;
+}
+
+.Footer {
+    background-color: #272727;
+    color: #EABE3F;
+}
+h6 {
+    color: #EABE3F;
+
+}

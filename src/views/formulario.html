@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Clase 7</title>
+</head>
+<body>
+    <form class="ContenedorFormulario" action="/register" method="post">
+
+        <label for="Name">Ingrese su Nombre Completo</label>
+        <input type="text" name="Name" id="Name" placeholder="Nombre Completo" required>
+
+        <label for="UserName">Ingrese su Nombre de Usuario</label>
+        <input type="text" name="UserName" id="UserName" placeholder="Usuario" required>
+
+        <label for="Email">Ingrese su Email</label>
+        <input type="email" name="Email" id="Email" placeholder="Email" required>
+
+        <label for="Password">Ingrese su Contraseña</label>
+        <input type="password" name="Password" id="Password" placeholder="Contraseña" required>
+
+        <label for="ConfirmPassword">Confirme su Contraseña</label>
+        <input type="password" name="ConfirmPassword" id="ConfirmPassword" placeholder="Confirmar Contraseña" required>
+        
+        <label for="DateOfBirth">Fecha de nacimiento</label>
+        <input type="date" name="DateOfBirth" id="DateOfBirth" >
+
+        <label for="File">Seleccione su Foto de Perfil</label >
+        <input type="file" name="File" id="File" required>
+
+        <label for="Country">Seleccione su Pais</label>
+        <select id="Country" id="Country">
+            <option selected value="" disabled >Seleccionar</option>
+            <option value="Arg">Argentina</option>
+            <option value="Ch">Chile</option>
+            <option value="Ur">Uruguay</option>
+            </select>
+
+        <label for="Number">Ingrese su Numero de Telefono</label>
+        <input type="number" name="Number" id="Number" placeholder="Numero">
+        
+        <label for="Genero">Genero</label>
+        <input type="radio" name="Genero" value="Hombre" >
+        <input type="radio" name="Genero" value="Mujer"/>
+        <input type="radio" name="Genero" value="Prefiero no decirlo">
+
+        <label for="Suscripcion">Suscribirse al newsletter</label>
+        <input type="checkbox" name="Suscripcion" id="Suscripcion" >
+
+        <label for="AceptoTyC">Acepto los términos y condiciones &nbsp</label>
+        <input type="checkbox" name="AceptoTyC" id="AceptoTyC" required>
+        
+        <button type="reset">Resetear</button>
+        <input type="submit" placeholder="Ingresar">
+        
+    </form>
+</body>
+</html>
